@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Porlane';
+    src: url(portfoliowebsite\public\fonts\662f6dd95cf82eada21ddc17_EDNimpkish-Regular.woff2);
+}
+
+
 .topanimatecontainer {
     width: 100%;
     height: auto;
@@ -28,11 +34,11 @@
 
 
 @media (max-width: 850px) {
-    .name h1{
-    font-size: 27rem;
-    font-family: 'Porlane';
-    line-height: 22rem;
-    /* background-color: #a16c6c77; */   
+    .name h1 {
+        font-size: 27rem;
+        font-family: 'Porlane';
+        line-height: 22rem;
+        /* background-color: #a16c6c77; */
     }
 
     .topanimatecontainer {
@@ -46,10 +52,10 @@
 }
 
 @media (max-width: 750px) {
-    .name h1{
-    font-size: 24rem;
-    font-family: 'Porlane';
-    line-height: 20rem;   
+    .name h1 {
+        font-size: 24rem;
+        font-family: 'Porlane';
+        line-height: 20rem;
     }
 
     .topanimatecontainer {
@@ -61,12 +67,13 @@
         gap: 5rem;
     }
 }
+
 @media (max-width: 600px) {
-    .name h1{
-    font-size: 22rem;
-    font-family: 'Porlane';
-    line-height: 17rem;   
-    /* background-color: #a16c6c77; */
+    .name h1 {
+        font-size: 22rem;
+        font-family: 'Porlane';
+        line-height: 17rem;
+        /* background-color: #a16c6c77; */
     }
 
     .topanimatecontainer {
@@ -78,12 +85,13 @@
         gap: 4rem;
     }
 }
+
 @media (max-width: 450px) {
-    .name h1{
-    font-size: 20rem;
-    font-family: 'Porlane';
-    line-height: 16rem;   
-    /* background-color: #a16c6c77; */
+    .name h1 {
+        font-size: 20rem;
+        font-family: 'Porlane';
+        line-height: 16rem;
+        /* background-color: #a16c6c77; */
     }
 
     .topanimatecontainer {
@@ -95,12 +103,13 @@
         gap: 3rem;
     }
 }
+
 @media (max-width: 350px) {
-    .name h1{
-    font-size: 16rem;
-    font-family: 'Porlane';
-    line-height: 14rem;   
-    /* background-color: #a16c6c77; */
+    .name h1 {
+        font-size: 16rem;
+        font-family: 'Porlane';
+        line-height: 14rem;
+        /* background-color: #a16c6c77; */
     }
 
     .topanimatecontainer {
@@ -112,12 +121,13 @@
         gap: 3rem;
     }
 }
+
 @media (max-width: 290px) {
-    .name h1{
-    font-size: 14rem;
-    font-family: 'Porlane';
-    line-height: 12rem;   
-    /* background-color: #a16c6c77; */
+    .name h1 {
+        font-size: 14rem;
+        font-family: 'Porlane';
+        line-height: 12rem;
+        /* background-color: #a16c6c77; */
     }
 
     .topanimatecontainer {
@@ -129,12 +139,13 @@
         gap: 3rem;
     }
 }
+
 @media (max-width: 250px) {
-    .name h1{
-    font-size: 12rem;
-    font-family: 'Porlane';
-    line-height: 10rem;   
-    /* background-color: #a16c6c77; */
+    .name h1 {
+        font-size: 12rem;
+        font-family: 'Porlane';
+        line-height: 10rem;
+        /* background-color: #a16c6c77; */
     }
 
     .topanimatecontainer {

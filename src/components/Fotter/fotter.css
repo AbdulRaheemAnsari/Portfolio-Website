@@ -1,24 +1,30 @@
-.fotter-container{
+@font-face {
+    font-family: 'Porlane';
+    src: url(portfoliowebsite\public\fonts\662f6dd95cf82eada21ddc17_EDNimpkish-Regular.woff2);
+
+}
+
+.fotter-container {
     width: 100%;
     height: 100vh;
     position: relative;
-    padding: 0rem 0rem;
+    padding: 1rem 2rem;
     background-color: #292929;
     color: #292929;
     transition: padding 0.3s ease;
 }
 
-.wrrapper{
+.wrrapper {
     width: 100%;
     height: 100%;
     position: relative;
     background-color: #FFFFFF;
-    border-radius: 0rem;
+    border-radius: 1rem;
 }
 
 
 /* top side section  */
-.top-side{
+.top-side {
     width: 100%;
     height: 10%;
     display: flex;
@@ -27,18 +33,18 @@
     padding: 1.2rem;
 }
 
-.designby h1{
+.designby h1 {
     line-height: 1.2rem;
     font-family: 'PP Mori';
 }
 
-.mylogo h1{
+.mylogo h1 {
     line-height: 1.2rem;
     font-family: 'Porlane';
     font-size: 3.75rem;
 }
 
-.freelencework h1{
+.freelencework h1 {
     line-height: 1rem;
     text-align: right;
     font-family: 'PP Mori';
@@ -47,7 +53,7 @@
 
 /* middle side section  */
 
-.middle-side{
+.middle-side {
     width: 100%;
     height: 80%;
     display: flex;
@@ -56,7 +62,7 @@
     justify-content: center;
 }
 
-.nextprojectheading h1{
+.nextprojectheading h1 {
     font-size: 10rem;
     font-family: 'Porlane';
     text-align: center;
@@ -67,7 +73,7 @@
 
 
 
-.contact{
+.contact {
     width: auto;
     height: auto;
     display: flex;
@@ -76,13 +82,15 @@
     align-items: center;
     margin-top: 1%;
 }
-.contact p{
+
+.contact p {
     font-size: 1rem;
     color: #535353;
     font-family: 'PP Mori';
 
 }
-.contact button{
+
+.contact button {
     border: 1px solid #292929;
     color: #292929;
     padding: 0.6rem 1rem;
@@ -103,7 +111,7 @@
     z-index: 9;
 }
 
-.contact a{
+.contact a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,12 +119,13 @@
     position: relative;
     z-index: 9;
 }
-.contact button:hover a{
+
+.contact button:hover a {
     color: #FFFFFF;
 }
 
 
-.contact button::after{
+.contact button::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -129,17 +138,17 @@
     transition: all ease 0.4s;
 }
 
-.contact button:hover::after{
+.contact button:hover::after {
     right: 0%;
     border-radius: 0px;
 }
 
-.contact button:hover .connecticon{
+.contact button:hover .connecticon {
     background-color: #FFFFFF;
     color: #292929;
 }
 
-.connecticon{
+.connecticon {
     background-color: #292929;
     color: #FFFFFF;
     font-size: 2rem;
@@ -149,7 +158,7 @@
 
 
 /* bottom side */
-.bottom-side{
+.bottom-side {
     width: 100%;
     height: 10%;
     display: flex;
@@ -159,26 +168,33 @@
 }
 
 
-.backtotop h1{
+.backtotop h1 {
     line-height: 1.2rem;
     font-family: 'PP Mori';
     cursor: pointer;
+    letter-spacing: -0.02rem;
 }
 
-.backtotop{
+.backtotop {
     display: flex;
     align-items: center;
     gap: 0.7rem;
     /* font-size: 1rem; */
 }
 
-.sociallinks{
+.allrights .right{
+    font-family: 'PP Mori';
+    letter-spacing: -0.02rem;
+}
+
+.sociallinks {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-.sociallinks button{
+
+.sociallinks button {
     border: 1px solid #292929;
     border-radius: 50px;
     padding: 0.4rem 1rem;
@@ -193,7 +209,7 @@
     z-index: 9;
 }
 
-.sociallinks a{
+.sociallinks a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,12 +217,13 @@
     position: relative;
     z-index: 9;
 }
-.sociallinks button:hover a{
+
+.sociallinks button:hover a {
     color: #FFFFFF;
 }
 
 
-.sociallinks button::after{
+.sociallinks button::after {
     content: "";
     width: 0%;
     height: 100%;
@@ -221,7 +238,7 @@
     opacity: 0;
 }
 
-.sociallinks button:hover::after{
+.sociallinks button:hover::after {
     left: 0%;
     right: 0%;
     width: 100%;
@@ -229,7 +246,7 @@
     opacity: 1;
 }
 
-.designanddevelopeby h1{
+.designanddevelopeby h1 {
     line-height: 1.2rem;
     font-family: 'PP Mori';
     text-align: right;
@@ -240,20 +257,22 @@
 
 
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     /* top side */
 
-    .designby h1{
+    .designby h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
     }
-    .mylogo h1{
+
+    .mylogo h1 {
         line-height: 1.2rem;
         font-family: 'Porlane';
         font-size: 3.2rem;
     }
-    .freelencework h1{
+
+    .freelencework h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         text-align: right;
@@ -262,7 +281,7 @@
 
 
     /* middle side */
-    .nextprojectheading h1{
+    .nextprojectheading h1 {
         font-size: 8rem;
         font-family: 'Porlane';
         text-align: center;
@@ -270,7 +289,8 @@
         display: flex;
         color: #292929;
     }
-    .contact{
+
+    .contact {
         width: auto;
         height: auto;
         display: flex;
@@ -278,12 +298,13 @@
         align-items: center;
         margin-top: 1%;
     }
-    .contact button{
+
+    .contact button {
         border: 1px solid #292929;
         color: #292929;
         padding: 0.6rem 1rem;
         font-family: 'PP Mori';
-        font-size: 0,8rem;
+        font-size: 0, 8rem;
         display: flex;
         align-items: center;
         border-radius: 50rem;
@@ -295,13 +316,13 @@
 
 
     /* bottom side */
-    .allrights h1{
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks button{
+
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.4rem 1rem;
@@ -309,7 +330,8 @@
         font-family: 'PP Mori';
         font-size: 0.8rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
@@ -317,20 +339,22 @@
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
     /* top side */
 
-    .designby h1{
+    .designby h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
     }
-    .mylogo h1{
+
+    .mylogo h1 {
         line-height: 1.2rem;
         font-family: 'Porlane';
         font-size: 3rem;
     }
-    .freelencework h1{
+
+    .freelencework h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         text-align: right;
@@ -339,7 +363,7 @@
 
 
     /* middle side */
-    .nextprojectheading h1{
+    .nextprojectheading h1 {
         font-size: 7rem;
         font-family: 'Porlane';
         text-align: center;
@@ -347,7 +371,8 @@
         display: flex;
         color: #292929;
     }
-    .contact{
+
+    .contact {
         width: auto;
         height: auto;
         display: flex;
@@ -355,10 +380,12 @@
         align-items: center;
         margin-top: 1%;
     }
-    .contact p{
+
+    .contact p {
         font-size: 0.8rem;
     }
-    .contact button{
+
+    .contact button {
         border: 1px solid #292929;
         color: #292929;
         padding: 0.6rem 1rem;
@@ -376,16 +403,17 @@
 
     /* bottom side */
 
-    .bottom-side{
+    .bottom-side {
         padding-bottom: 2rem;
     }
-    .allrights h1{
+
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks{
+
+    .sociallinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -393,7 +421,7 @@
         gap: 0.6rem;
     }
 
-    .sociallinks button{
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.4rem 0.8rem;
@@ -401,7 +429,8 @@
         font-family: 'PP Mori';
         font-size: 0.8rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
@@ -409,8 +438,8 @@
     }
 }
 
-@media (max-width: 800px){
-    .fotter-container{
+@media (max-width: 800px) {
+    .fotter-container {
         width: 100%;
         height: 100vh;
         position: relative;
@@ -420,11 +449,11 @@
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     /* top side */
 
 
-    .top-side{
+    .top-side {
         width: 100%;
         height: 20%;
         display: flex;
@@ -435,18 +464,20 @@
         padding: 1.2rem;
     }
 
-    .designby h1{
+    .designby h1 {
         text-align: center;
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
     }
-    .mylogo h1{
+
+    .mylogo h1 {
         line-height: 1.2rem;
         font-family: 'Porlane';
         font-size: 3rem;
     }
-    .freelencework h1{
+
+    .freelencework h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         text-align: center;
@@ -456,7 +487,7 @@
 
     /* middle side */
 
-    .middle-side{
+    .middle-side {
         width: 100%;
         height: 60%;
         display: flex;
@@ -465,7 +496,7 @@
         justify-content: center;
     }
 
-    .nextprojectheading h1{
+    .nextprojectheading h1 {
         font-size: 6rem;
         font-family: 'Porlane';
         text-align: center;
@@ -473,7 +504,8 @@
         display: flex;
         color: #292929;
     }
-    .contact{
+
+    .contact {
         width: auto;
         height: auto;
         display: flex;
@@ -482,10 +514,11 @@
         margin-top: 1%;
     }
 
-    .contact p{
+    .contact p {
         font-size: 0.8rem;
     }
-    .contact button{
+
+    .contact button {
         border: 1px solid #292929;
         color: #292929;
         padding: 0.6rem 1rem;
@@ -504,7 +537,7 @@
 
     /* bottom side */
 
-    .bottom-side{
+    .bottom-side {
         width: 100%;
         height: 20%;
         /* background-color: antiquewhite; */
@@ -516,17 +549,18 @@
         padding: 1.2rem;
     }
 
-    .bottom-side{
+    .bottom-side {
         padding-bottom: 2rem;
     }
-    .allrights h1{
+
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         text-align: center;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks{
+
+    .sociallinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -534,7 +568,7 @@
         gap: 0.6rem;
     }
 
-    .sociallinks button{
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.4rem 0.8rem;
@@ -542,7 +576,8 @@
         font-family: 'PP Mori';
         font-size: 0.8rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         font-family: 'PP Mori';
@@ -550,11 +585,11 @@
     }
 }
 
-@media (max-width: 460px){
+@media (max-width: 460px) {
     /* top side */
 
 
-    .top-side{
+    .top-side {
         width: 100%;
         height: 25%;
         display: flex;
@@ -565,18 +600,20 @@
         padding: 3rem 0rem;
     }
 
-    .designby h1{
+    .designby h1 {
         text-align: center;
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
     }
-    .mylogo h1{
+
+    .mylogo h1 {
         line-height: 1.2rem;
         font-family: 'Porlane';
         font-size: 3rem;
     }
-    .freelencework h1{
+
+    .freelencework h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         text-align: center;
@@ -586,7 +623,7 @@
 
     /* middle side */
 
-    .middle-side{
+    .middle-side {
         width: 100%;
         height: 50%;
         display: flex;
@@ -595,7 +632,7 @@
         justify-content: center;
     }
 
-    .nextprojectheading h1{
+    .nextprojectheading h1 {
         font-size: 5rem;
         font-family: 'Porlane';
         text-align: center;
@@ -603,7 +640,8 @@
         display: flex;
         color: #292929;
     }
-    .contact{
+
+    .contact {
         width: auto;
         height: auto;
         display: flex;
@@ -612,15 +650,16 @@
         margin-top: 1%;
     }
 
-    .contact p{
+    .contact p {
         font-size: 0.8rem;
     }
 
-    .contact .connecticon{
+    .contact .connecticon {
         font-size: 1.7rem;
         padding: 0.4rem;
     }
-    .contact button{
+
+    .contact button {
         border: 1px solid #292929;
         color: #292929;
         padding: 0.4rem 0.8rem;
@@ -636,12 +675,12 @@
         overflow: hidden;
     }
 
-    
+
 
 
     /* bottom side */
 
-    .bottom-side{
+    .bottom-side {
         width: 100%;
         height: 25%;
         /* background-color: antiquewhite; */
@@ -653,17 +692,18 @@
         padding: 1rem 0rem;
     }
 
-    .bottom-side{
+    .bottom-side {
         padding-bottom: 2rem;
     }
-    .allrights h1{
+
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         text-align: center;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks{
+
+    .sociallinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -672,7 +712,7 @@
         padding: 0rem 4rem;
     }
 
-    .sociallinks button{
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.1rem 0.7rem;
@@ -680,7 +720,8 @@
         font-family: 'PP Mori';
         font-size: 0.8rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         font-family: 'PP Mori';
@@ -688,9 +729,9 @@
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
 
-    .fotter-container{
+    .fotter-container {
         width: 100%;
         height: 100vh;
         position: relative;
@@ -698,8 +739,9 @@
         background-color: #292929;
         color: #292929;
     }
+
     /* top side */
-    .top-side{
+    .top-side {
         width: 100%;
         height: 25%;
         display: flex;
@@ -710,18 +752,20 @@
         padding: 3rem 0rem;
     }
 
-    .designby h1{
+    .designby h1 {
         text-align: center;
         line-height: 1rem;
         font-size: 0.9rem;
         font-family: 'PP Mori';
     }
-    .mylogo h1{
+
+    .mylogo h1 {
         line-height: 1.2rem;
         font-family: 'Porlane';
         font-size: 3rem;
     }
-    .freelencework h1{
+
+    .freelencework h1 {
         line-height: 1rem;
         font-size: 0.9rem;
         text-align: center;
@@ -731,7 +775,7 @@
 
     /* middle side */
 
-    .middle-side{
+    .middle-side {
         width: 100%;
         height: 50%;
         display: flex;
@@ -740,7 +784,7 @@
         justify-content: center;
     }
 
-    .nextprojectheading h1{
+    .nextprojectheading h1 {
         font-size: 4rem;
         font-family: 'Porlane';
         text-align: center;
@@ -748,7 +792,8 @@
         display: flex;
         color: #292929;
     }
-    .contact{
+
+    .contact {
         width: auto;
         height: auto;
         display: flex;
@@ -757,15 +802,16 @@
         margin-top: 1%;
     }
 
-    .contact p{
+    .contact p {
         font-size: 0.8rem;
     }
 
-    .contact .connecticon{
+    .contact .connecticon {
         font-size: 1.5rem;
         padding: 0.4rem;
     }
-    .contact button{
+
+    .contact button {
         border: 1px solid #292929;
         color: #292929;
         padding: 0.4rem 0.9rem;
@@ -781,14 +827,14 @@
         overflow: hidden;
     }
 
-    .contact a{
+    .contact a {
         gap: 0.2rem;
     }
 
 
     /* bottom side */
 
-    .bottom-side{
+    .bottom-side {
         width: 100%;
         height: 25%;
         /* background-color: antiquewhite; */
@@ -800,17 +846,18 @@
         padding: 1.4rem 0rem;
     }
 
-    .bottom-side{
+    .bottom-side {
         padding-bottom: 2rem;
     }
-    .allrights h1{
+
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         text-align: center;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks{
+
+    .sociallinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -819,7 +866,7 @@
         padding: 1rem 4rem;
     }
 
-    .sociallinks button{
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.05rem 0.7rem;
@@ -827,7 +874,8 @@
         font-family: 'PP Mori';
         font-size: 0.8rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         font-family: 'PP Mori';
@@ -835,9 +883,9 @@
     }
 }
 
-@media (max-width: 330px){
+@media (max-width: 330px) {
 
-    .fotter-container{
+    .fotter-container {
         width: 100%;
         height: 100vh;
         position: relative;
@@ -849,7 +897,7 @@
 
     /* bottom side */
 
-    .bottom-side{
+    .bottom-side {
         width: 100%;
         height: 25%;
         /* background-color: antiquewhite; */
@@ -861,17 +909,18 @@
         padding: 0.4rem 0rem;
     }
 
-    .bottom-side{
+    .bottom-side {
         padding-bottom: 2rem;
     }
-    .allrights h1{
+
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         text-align: center;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks{
+
+    .sociallinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -880,7 +929,7 @@
         padding: 1rem 4rem;
     }
 
-    .sociallinks button{
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.08rem 0.7rem;
@@ -888,7 +937,8 @@
         font-family: 'PP Mori';
         font-size: 0.8rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         font-family: 'PP Mori';
@@ -896,9 +946,9 @@
     }
 }
 
-@media (max-width: 300px){
+@media (max-width: 300px) {
 
-    .fotter-container{
+    .fotter-container {
         width: 100%;
         height: 100vh;
         position: relative;
@@ -910,7 +960,7 @@
 
     /* middle side */
 
-    .middle-side{
+    .middle-side {
         width: 100%;
         height: 50%;
         display: flex;
@@ -919,7 +969,7 @@
         justify-content: center;
     }
 
-    .nextprojectheading h1{
+    .nextprojectheading h1 {
         font-size: 3.4rem;
         font-family: 'Porlane';
         text-align: center;
@@ -927,7 +977,8 @@
         display: flex;
         color: #292929;
     }
-    .contact{
+
+    .contact {
         width: auto;
         height: auto;
         display: flex;
@@ -936,16 +987,17 @@
         margin-top: 0.6rem;
     }
 
-    .contact p{
+    .contact p {
         font-size: 0.6rem;
     }
 
-    .contact .connecticon{
+    .contact .connecticon {
         font-size: 1rem;
         padding: 0.3rem;
         margin-left: 0.2rem;
     }
-    .contact button{
+
+    .contact button {
         border: 1px solid #292929;
         color: #292929;
         padding: 0.4rem 0.6rem;
@@ -961,13 +1013,13 @@
         overflow: hidden;
     }
 
-    .contact a{
+    .contact a {
         gap: 0.1rem;
     }
 
     /* bottom side */
 
-    .bottom-side{
+    .bottom-side {
         width: 100%;
         height: 25%;
         /* background-color: antiquewhite; */
@@ -979,17 +1031,18 @@
         padding: 0.4rem 0rem;
     }
 
-    .bottom-side{
+    .bottom-side {
         padding-bottom: 2rem;
     }
-    .allrights h1{
+
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         text-align: center;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks{
+
+    .sociallinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -998,7 +1051,7 @@
         padding: 1rem 4rem;
     }
 
-    .sociallinks button{
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.08rem 0.7rem;
@@ -1006,7 +1059,8 @@
         font-family: 'PP Mori';
         font-size: 0.8rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.8rem;
         font-family: 'PP Mori';
@@ -1014,9 +1068,9 @@
     }
 }
 
-@media (max-width: 270px){
+@media (max-width: 270px) {
 
-    .fotter-container{
+    .fotter-container {
         width: 100%;
         height: 100vh;
         position: relative;
@@ -1026,7 +1080,7 @@
     }
 
     /* top side */
-    .top-side{
+    .top-side {
         width: 100%;
         height: 25%;
         display: flex;
@@ -1037,18 +1091,20 @@
         padding: 3.2rem 0rem;
     }
 
-    .designby h1{
+    .designby h1 {
         text-align: center;
         line-height: 1rem;
         font-size: 0.7rem;
         font-family: 'PP Mori';
     }
-    .mylogo h1{
+
+    .mylogo h1 {
         line-height: 1.2rem;
         font-family: 'Porlane';
         font-size: 2rem;
     }
-    .freelencework h1{
+
+    .freelencework h1 {
         line-height: 1rem;
         font-size: 0.7rem;
         text-align: center;
@@ -1057,7 +1113,7 @@
 
     /* middle side */
 
-    .middle-side{
+    .middle-side {
         width: 100%;
         height: 50%;
         display: flex;
@@ -1066,7 +1122,7 @@
         justify-content: center;
     }
 
-    .nextprojectheading h1{
+    .nextprojectheading h1 {
         font-size: 3rem;
         font-family: 'Porlane';
         text-align: center;
@@ -1074,7 +1130,8 @@
         display: flex;
         color: #292929;
     }
-    .contact{
+
+    .contact {
         width: auto;
         height: auto;
         display: flex;
@@ -1083,16 +1140,17 @@
         margin-top: 0.6rem;
     }
 
-    .contact p{
+    .contact p {
         font-size: 0.6rem;
     }
 
-    .contact .connecticon{
+    .contact .connecticon {
         font-size: 1rem;
         padding: 0.3rem;
         margin-left: 0.2rem;
     }
-    .contact button{
+
+    .contact button {
         border: 1px solid #292929;
         color: #292929;
         padding: 0.4rem 0.6rem;
@@ -1109,13 +1167,13 @@
         overflow: hidden;
     }
 
-    .contact a{
+    .contact a {
         gap: 0.1rem;
     }
 
     /* bottom side */
 
-    .bottom-side{
+    .bottom-side {
         width: 100%;
         height: 25%;
         /* background-color: antiquewhite; */
@@ -1127,17 +1185,18 @@
         padding: 0.4rem 0rem;
     }
 
-    .bottom-side{
+    .bottom-side {
         padding-bottom: 2rem;
     }
-    .allrights h1{
+
+    .allrights h1 {
         line-height: 1rem;
         font-size: 0.7rem;
         text-align: center;
         font-family: 'PP Mori';
     }
-    
-    .sociallinks{
+
+    .sociallinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1146,7 +1205,7 @@
         padding: 1rem 4rem;
     }
 
-    .sociallinks button{
+    .sociallinks button {
         border: 1px solid #292929;
         border-radius: 50px;
         padding: 0.08rem 0.5rem;
@@ -1154,7 +1213,8 @@
         font-family: 'PP Mori';
         font-size: 0.7rem;
     }
-    .designanddevelopeby h1{
+
+    .designanddevelopeby h1 {
         line-height: 1rem;
         font-size: 0.7rem;
         font-family: 'PP Mori';

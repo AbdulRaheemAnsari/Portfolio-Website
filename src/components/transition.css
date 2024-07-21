@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Porlane';
+    src: url(portfoliowebsite\public\fonts\662f6dd95cf82eada21ddc17_EDNimpkish-Regular.woff2);
+    
+}
+
 .transition {
     position: fixed;
     top: 0;
