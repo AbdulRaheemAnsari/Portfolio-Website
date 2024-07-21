@@ -44,14 +44,6 @@ const Navbar = () => {
               <Link onClick={handleScroll}><h1 onClick={menuclose}>Home</h1></Link>
               <p>01</p>
             </div>
-            {/* <div className="menuName">
-            <RouterLink to="/about-section">
-              <ScrollLink to="about-section" smooth={true} duration={900}>
-                <h1 onClick={menuclose}>About</h1>
-              </ScrollLink>
-            </RouterLink>
-            <p>02</p>
-          </div> */}
             <div className="menuName">
               <RouterLink to="/Projects">
                 <ScrollLink to="Projects" smooth={true} duration={1000}>

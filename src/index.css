@@ -6,4 +6,12 @@
     background-color: #D8D5CC;
   }
 
+  @font-face {
+    font-family: 'Porlane';
+    src: url('/path/to/fonts/porlane.woff2') format('woff2'),
+  }
 
+
+  body {
+    font-family: 'Porlane', sans-serif;
+  }
