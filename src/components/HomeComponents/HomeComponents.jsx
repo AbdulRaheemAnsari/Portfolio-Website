@@ -4,6 +4,7 @@ import Projects from '../ProjectComponents/Projects';
 import About_Content from '../AboutPage/About_Content';
 import { projects } from '../data' // Import projects data
 import Transition from '../Transition';
+import './index.css';
 
 const HomeComponents = () => {
   return (
