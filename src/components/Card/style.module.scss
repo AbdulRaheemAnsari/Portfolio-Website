@@ -1,0 +1,360 @@
+.cardContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 2rem;
+    bottom: 4rem;
+    padding: 0rem 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    top: -25%;
+    height: 93.4%;
+    width: 100%;
+    border-radius: 1rem;
+    transform-origin: top;
+    overflow: hidden;
+}
+
+.leftsections {
+    width: 50%;
+    background-color: #FFFFFF;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightsections {
+    width: 50%;
+    // background-color: rgb(92, 119, 110);
+    position: relative;
+}
+
+
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    // background-color: beige;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+h2 {
+    margin: 0px;
+    font-family: 'porlane';
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: #292929;
+    line-height: 6rem;
+}
+
+.technologys {
+    // background-color: #292929;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.technologys button {
+    font-size: 0.8rem;
+    font-family: 'PP Mori';
+    border: 1px solid #292929;
+    border-radius: 50px;
+    padding: 0rem 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectbutton {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    // background-color: antiquewhite;
+}
+
+.projectbutton button {
+    border: 1px solid #292929;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    // text-transform: uppercase;
+    font-family: "PP Mori";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #292929;
+    overflow: hidden;
+}
+
+
+.projectbutton button:hover {
+    color: #FFFFFF;
+    z-index: 9;
+}
+
+.projectbutton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    z-index: 9;
+}
+
+.projectbutton button:hover a {
+    color: #FFFFFF;
+}
+
+
+.projectbutton button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    color: #FFFFFF;
+    position: absolute;
+    right: -100%;
+    bottom: 0%;
+    /* border-radius: 50px; */
+    transition: all ease 0.3s;
+}
+
+.projectbutton button:hover::after {
+    right: 0%;
+    border-radius: 0px;
+}
+
+.projectbutton button:hover .icons{
+    background-color: #FFFFFF;
+    color: #292929;
+}
+.icons{
+    background-color: #292929;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    padding: 0.3rem;
+}
+
+
+.description {
+    width: 80%;
+    text-align: justify;
+    position: relative;
+    font-family: 'PP Mori';
+    font-size: 0.9rem;
+    letter-spacing: -0.03rem;
+    line-height: 1.3rem;
+    color: #292929;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+    .cardContainer {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 2rem;
+        bottom: 4rem;
+        padding: 0rem 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -25%;
+        height: 94%;
+        width: 100%;
+        border-radius: 1rem;
+        transform-origin: top;
+        overflow: hidden;
+        background-color: #a03333;
+    }
+
+    .leftsections {
+        width: 100%;
+        height: 50%;
+        background-color: #FFFFFF;
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .rightsections {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+    .projectbutton button {
+        border: 1px solid #292929;
+        border-radius: 50px;
+        padding: 0.5rem 1.2rem;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        // text-transform: uppercase;
+        font-family: "PP Mori";
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #292929;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .leftsections {
+        padding: 2rem 1.4rem;
+    }   
+
+    h2 {
+        margin: 0px;
+        font-family: 'porlane';
+        text-transform: uppercase;
+        font-size: 4.6rem;
+        color: #292929;
+        line-height: 6rem;
+    }
+
+    .projectbutton button {
+        border: 1px solid #292929;
+        border-radius: 50px;
+        padding: 0.4rem 1rem;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        // text-transform: uppercase;
+        font-family: "PP Mori";
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #292929;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 305px) {
+
+    .card {
+        height: 90%;
+    }
+
+    .leftsections {
+        padding: 2rem 1.2rem;
+    }
+
+    h2 {
+        margin: 0px;
+        font-family: 'porlane';
+        text-transform: uppercase;
+        font-size: 3.8rem;
+        color: #292929;
+        line-height: 3rem;
+    }
+
+    .projectbutton button {
+        border: 1px solid #292929;
+        border-radius: 50px;
+        padding: 0.4rem 1rem;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        // text-transform: uppercase;
+        font-family: "PP Mori";
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #292929;
+        overflow: hidden;
+    }
+
+    .technologys {
+        // background-color: #292929;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 250px) {
+
+    .card {
+        height: 88%;
+    }
+
+    .leftsections {
+        padding: 2rem 1rem;
+    }
+
+    h2 {
+        margin: 0px;
+        font-family: 'porlane';
+        text-transform: uppercase;
+        font-size: 3.6rem;
+        color: #292929;
+        line-height: 3rem;
+    }
+
+    .projectbutton button {
+        border: 1px solid #292929;
+        border-radius: 50px;
+        padding: 0.4rem 1rem;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        // text-transform: uppercase;
+        font-family: "PP Mori";
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #292929;
+        overflow: hidden;
+    }
+
+    .technologys {
+        // background-color: #292929;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        margin-top: 1rem;
+    }
+}

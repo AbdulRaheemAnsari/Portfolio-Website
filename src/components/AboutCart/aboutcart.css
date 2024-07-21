@@ -1,0 +1,68 @@
+.aboutcart{
+    width: 50%;
+    height: auto;
+    border-radius: 0.6rem;
+    padding: 0rem;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.headingabout{
+    font-family: 'porlane';
+    font-size: 4.5rem;
+    overflow: hidden;
+}
+
+.headingabout h1{
+    margin: 0;
+    line-height: 4rem;
+    padding-top: 3rem;
+}
+
+
+@media (max-width: 900px) {
+
+    .headingabout{
+        font-family: 'porlane';
+        font-size: 4rem;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .headingabout{
+        font-family: 'porlane';
+        font-size: 3.5rem;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .headingabout{
+        font-family: 'porlane';
+        font-size: 3rem;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 255px) {
+
+    .headingabout{
+        font-family: 'porlane';
+        font-size: 2.6rem;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 230px) {
+
+    .headingabout{
+        font-family: 'porlane';
+        font-size: 2.2rem;
+        overflow: hidden;
+    }
+}

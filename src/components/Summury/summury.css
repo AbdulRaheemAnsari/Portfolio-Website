@@ -1,0 +1,494 @@
+.aboutsection {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.leftsidesection {
+    width: 50%;
+    height: 95%;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.6rem;
+}
+
+.text {
+    width: 100%;
+    height: auto;
+    padding: 1.4rem;
+    padding-right: 5.8rem;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-family: 'PP Mori';
+    letter-spacing: -0.1rem;
+    line-height: 3rem;
+    color: #292929;
+}
+
+.button {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1.4rem;
+}
+
+.button button {
+    border: 1px solid #292929;
+    border-radius: 50px;
+    padding: 0.5rem 0.8rem;
+    font-family: 'PP Mori';
+    letter-spacing: -0.04rem;
+    font-size: 1rem;    
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.button button:hover {
+    color: #FFFFFF;
+    z-index: 9;
+}
+
+.button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #292929;
+    position: relative;
+    z-index: 9;
+}
+
+.button button:hover a {
+    color: #FFFFFF;
+}
+
+
+.button button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    color: #C5D3C5;
+    position: absolute;
+    right: -100%;
+    border-radius: 50px;
+    transition: all ease 0.3s;
+}
+
+.button button:hover::after {
+    right: 0%;
+    border-radius: 0px;
+}
+
+.button button:hover .iconss{
+    background-color: #FFFFFF;
+    color: #292929;
+}
+.iconss{
+    background-color: #292929;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    padding: 0.3rem;
+}
+
+
+
+/* right section */
+
+.rightsidesection {
+    width: 50%;
+    height: 95%;
+    background-color: #313131;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    object-fit: cover;
+    object-position: center;
+}
+
+.rightsidesection img {
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: top;
+    filter: grayscale();
+    /* zoom: unset; */
+    scale: 1.1;
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .button button {
+        padding: 0.5rem 1.2rem;
+        letter-spacing: -0.05rem;
+        font-size: 1rem;
+    }
+
+    .button a {
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1100px){
+
+    .leftsidesection{
+        width: 50%;
+        height: 85%;
+    }
+    .rightsidesection{
+        width: 50%;
+        height: 85%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .rightsidesection img {
+        /* width: 100%; */
+        border-radius: 1rem;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .text{
+        padding-right: 1.8rem;
+    }
+    .text h1 {
+        font-size: 2.2rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.1rem;
+        line-height: 2.6rem;
+        color: #292929;
+    }
+}
+
+@media (max-width: 1000px) {
+    .button button {
+        padding: 0.5rem 1.2rem;
+        letter-spacing: -0.05rem;
+        font-size: 1rem;
+    }
+
+    .button a {
+        gap: 1rem;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .aboutsection {
+        width: 100%;
+        min-height: 170vh;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+    }
+
+    .leftsidesection{
+        width: 100%;
+        height: 140rem;
+    }
+
+    .text{
+        padding-right: 4rem;
+    }
+    .rightsidesection{
+        width: 100%;
+        height: 220rem;
+    }
+
+    .rightsidesection img{
+        object-fit: cover;
+        width: 100%;
+        margin-top: 0;
+        height: 100%;
+        object-position: top;
+    }
+}
+
+@media (max-width: 600px) {
+    .button {
+        top: 70%;
+    }
+
+    .button button {
+        padding: 0.5rem 1rem;
+        letter-spacing: -0.05rem;
+        font-size: 1rem;
+    }
+
+    .button a {
+        gap: 0.8rem;
+        align-items: center;
+    }
+
+    .text{
+        padding-right: 4rem;
+    }
+    .text h1 {
+        font-size: 2rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.1rem;
+        line-height: 2.2rem;
+        color: #292929;
+    }
+}
+
+@media (max-width: 500px) {
+    .button button {
+        padding: 0.5rem 1rem;
+        letter-spacing: -0.05rem;
+        font-size: 1rem;
+    }
+
+    .button a {
+        gap: 0.6rem;
+    }
+
+    .leftsidesection{
+        width: 100%;
+        height: 50%;
+    }
+
+    .rightsidesection{
+        width: 100%;
+        height: 50%;
+    }
+
+    .rightsidesection img{
+        object-fit: cover;
+        width: 100%;
+        margin-top: 0;
+        height: 100%;
+        object-position: top;
+    }
+
+    .text{
+        padding-right: 3rem;
+    }
+    .text h1 {
+        font-size: 2rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.1rem;
+        line-height: 2.2rem;
+        color: #292929;
+    }
+}
+
+@media (max-width: 400px) {
+    .button button {
+        padding: 0.5rem 1rem;
+        letter-spacing: -0.05rem;
+        font-size: 1rem;
+    }
+
+    .button a {
+        gap: 0.6rem;
+    }
+
+    .aboutsection {
+        width: 100%;
+        min-height: 100vh;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+    }
+
+
+    .leftsidesection{
+        width: 100%;
+        height: 50%;
+    }
+
+    .rightsidesection{
+        width: 100%;
+        height: 50%;
+    }
+
+    .rightsidesection img{
+        object-fit: cover;
+        width: 100%;
+        margin-top: 0;
+        height: 100%;
+        object-position: top;
+    }
+
+    .text{
+        padding-right: 2rem;
+    }
+    .text h1 {
+        font-size: 1.6rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.1rem;
+        line-height: 1.8rem;
+        color: #292929;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .button button {
+        padding: 0.5rem 0.6rem;
+        letter-spacing: -0.02rem;
+        font-size: 0.7rem;
+    }
+
+    .button a {
+        gap: 0.6rem;
+        align-items: center;
+    }
+
+
+    .aboutsection {
+        width: 100%;
+        height: 50vh;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1.2rem;
+    }
+
+
+    .leftsidesection{
+        width: 100%;
+        height: 50%;
+    }
+
+    .rightsidesection{
+        width: 100%;
+        height: 50%;
+    }
+
+    .rightsidesection img{
+        object-fit: cover;
+        width: 100%;
+        margin-top: 0;
+        height: 100%;
+        object-position: top;
+    }
+
+    .text{
+        padding-right: 1rem;
+        padding-left: 0.8rem;
+    }
+    .text h1 {
+        font-size: 1.6rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.07rem;
+        line-height: 1.6rem;
+        color: #292929;
+    }
+
+    .button {
+        padding-left: 0.8rem;
+    }
+
+    .button button {
+        padding: 0.4rem 0.6rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.02rem;
+        font-size: 0.9rem;   
+    }
+}
+
+@media (max-width: 230px) {
+    .button button {
+        padding: 0.5rem 0.4rem;
+        letter-spacing: 0rem;
+        font-size: 0.6rem;
+    }
+
+    .button a {
+        gap: 0.4rem;
+        align-items: center;
+    }
+
+
+    .text{
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    }
+    .text h1 {
+        font-size: 1.2rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.06rem;
+        line-height: 1.4rem;
+        color: #292929;
+    }
+
+    .button {
+        padding-left: 0.8rem;
+    }
+
+    .button button {
+        padding: 0.3rem 0.6rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.02rem;
+        font-size: 0.8rem;   
+    }
+
+}
+
+@media (max-width: 200px) {
+    .button button {
+        padding: 0.5rem 0.4rem;
+        letter-spacing: 0rem;
+        font-size: 0.5rem;
+    }
+
+    .button a {
+        gap: 0.2rem;
+        align-items: center;
+    }
+
+    .text{
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    }
+    .text h1 {
+        font-size: 1.2rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.03rem;
+        line-height: 1.3rem;
+        color: #292929;
+    }
+
+    .button button {
+        padding: 0.2rem 0.6rem;
+        font-family: 'PP Mori';
+        letter-spacing: -0.02rem;
+        font-size: 0.6rem;   
+    }
+}

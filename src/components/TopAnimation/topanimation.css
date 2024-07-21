@@ -1,0 +1,159 @@
+.topanimatecontainer {
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    /* background-color: antiquewhite; */
+}
+
+.name {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 6rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.name h1 {
+    font-size: 27rem;
+    font-family: 'Porlane';
+    line-height: 23rem;
+    color: #FFFFFF;
+    /* animation-name: move;
+    animation-duration: 80s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    margin: 0;
+}
+
+
+@media (max-width: 850px) {
+    .name h1{
+    font-size: 27rem;
+    font-family: 'Porlane';
+    line-height: 22rem;
+    /* background-color: #a16c6c77; */   
+    }
+
+    .topanimatecontainer {
+        padding-top: 7rem;
+        /* background-color: #a16c6c77; */
+    }
+
+    .name {
+        gap: 5.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .name h1{
+    font-size: 24rem;
+    font-family: 'Porlane';
+    line-height: 20rem;   
+    }
+
+    .topanimatecontainer {
+        padding-top: 6.8rem;
+        /* background-color: #a16c6c77; */
+    }
+
+    .name {
+        gap: 5rem;
+    }
+}
+@media (max-width: 600px) {
+    .name h1{
+    font-size: 22rem;
+    font-family: 'Porlane';
+    line-height: 17rem;   
+    /* background-color: #a16c6c77; */
+    }
+
+    .topanimatecontainer {
+        padding-top: 6rem;
+        /* background-color: #a16c6c77; */
+    }
+
+    .name {
+        gap: 4rem;
+    }
+}
+@media (max-width: 450px) {
+    .name h1{
+    font-size: 20rem;
+    font-family: 'Porlane';
+    line-height: 16rem;   
+    /* background-color: #a16c6c77; */
+    }
+
+    .topanimatecontainer {
+        padding-top: 6.4rem;
+        /* background-color: #a16c6c77; */
+    }
+
+    .name {
+        gap: 3rem;
+    }
+}
+@media (max-width: 350px) {
+    .name h1{
+    font-size: 16rem;
+    font-family: 'Porlane';
+    line-height: 14rem;   
+    /* background-color: #a16c6c77; */
+    }
+
+    .topanimatecontainer {
+        padding-top: 5.6rem;
+        /* background-color: #a16c6c77; */
+    }
+
+    .name {
+        gap: 3rem;
+    }
+}
+@media (max-width: 290px) {
+    .name h1{
+    font-size: 14rem;
+    font-family: 'Porlane';
+    line-height: 12rem;   
+    /* background-color: #a16c6c77; */
+    }
+
+    .topanimatecontainer {
+        padding-top: 5.6rem;
+        /* background-color: #a16c6c77; */
+    }
+
+    .name {
+        gap: 3rem;
+    }
+}
+@media (max-width: 250px) {
+    .name h1{
+    font-size: 12rem;
+    font-family: 'Porlane';
+    line-height: 10rem;   
+    /* background-color: #a16c6c77; */
+    }
+
+    .topanimatecontainer {
+        padding-top: 5.2rem;
+        /* background-color: #a16c6c77; */
+    }
+
+    .name {
+        gap: 3rem;
+    }
+}
+
+
+/* @keyframes move {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+} */
