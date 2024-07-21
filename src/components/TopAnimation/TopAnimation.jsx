@@ -1,30 +1,31 @@
 import './topanimation.css';
-import gsap from 'gsap-trial';
-import { SplitText } from 'gsap-trial/SplitText';
-import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
+import gsap from 'gsap';
+// import { SplitText } from 'gsap-trial/SplitText';
+// import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
+import { ScrollTrigger } from 'gsap/all';
 import { useEffect, useRef } from 'react';
 
-gsap.registerPlugin(SplitText, ScrollTrigger)
+// gsap.registerPlugin(SplitText, ScrollTrigger)
 
 const TopAnimation = () => {
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        let mySplitAnimation = new SplitText('.splits', { type: 'chars' });
-        let chars = mySplitAnimation.chars;
+    //     let mySplitAnimation = new SplitText('.splits', { type: 'chars' });
+    //     let chars = mySplitAnimation.chars;
 
-        gsap.from(chars, {
-            yPercent: 150,
-            stagger: 0.01,
-            ease: "circ",
-            duration: 0.6,
-            delay: 4,
-        });
+    //     gsap.from(chars, {
+    //         yPercent: 150,
+    //         stagger: 0.01,
+    //         ease: "circ",
+    //         duration: 0.6,
+    //         delay: 4,
+    //     });
 
-        return () => {
-            mySplitAnimation.revert();
-        };
-    }, [])
+    //     return () => {
+    //         mySplitAnimation.revert();
+    //     };
+    // }, [])
 
 
     const firstText = useRef(null);

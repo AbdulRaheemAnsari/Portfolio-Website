@@ -1,43 +1,43 @@
 import './cartcontent.css';
-import gsap from 'gsap-trial';
-import { SplitText } from 'gsap-trial/SplitText';
-import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
-import { useEffect, useRef } from 'react';
+// import gsap from 'gsap-trial';
+// import { SplitText } from 'gsap-trial/SplitText';
+// import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
+// import { useEffect, useRef } from 'react';
 
-gsap.registerPlugin(SplitText, ScrollTrigger)
+// gsap.registerPlugin(SplitText, ScrollTrigger)
 
 const CartContent = () => {
 
-  const content = useRef(null);
+  // const content = useRef(null);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    let mySplitcontent = new SplitText('.contentslpit', { type: 'chars' });
-    let chars = mySplitcontent.chars;
+  //   let mySplitcontent = new SplitText('.contentslpit', { type: 'chars' });
+  //   let chars = mySplitcontent.chars;
 
-    gsap.from(chars, {
-      yPercent: 990,
-      stagger: 0.001,
-      duration: 0.8,
-      ease: "circ",
-      scrollTrigger: {
-        trigger: content.current,
-        start: 'top 70%',
-      },
-    });
+  //   gsap.from(chars, {
+  //     yPercent: 990,
+  //     stagger: 0.001,
+  //     duration: 0.8,
+  //     ease: "circ",
+  //     scrollTrigger: {
+  //       trigger: content.current,
+  //       start: 'top 70%',
+  //     },
+  //   });
 
 
-    return () => {
-      mySplitcontent.revert();
-    };
+  //   return () => {
+  //     mySplitcontent.revert();
+  //   };
 
-  }, [])
+  // }, [])
 
 
   return (
     <div className='cart-content'>
       <div className="abouttext">
-        <h1 ref={content} className='contentslpit'>As a creative developer, I specialize in both design and development, enabling me to handle projects from inception to launch. I focus on crafting unique layouts, engaging interactions, and exceptional typography to create standout websites.</h1>
+        <h1 className='contentslpit'>As a creative developer, I specialize in both design and development, enabling me to handle projects from inception to launch. I focus on crafting unique layouts, engaging interactions, and exceptional typography to create standout websites.</h1>
       </div>
     </div>
   )
