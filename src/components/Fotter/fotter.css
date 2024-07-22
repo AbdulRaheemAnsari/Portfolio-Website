@@ -1,7 +1,6 @@
 @font-face {
-    font-family: 'Porlane';
-    src: url(portfoliowebsite\public\fonts\662f6dd95cf82eada21ddc17_EDNimpkish-Regular.woff2);
-
+    font-family: 'porlanefont';
+    src: url('/fonts/porlane.woff') format('woff');
 }
 
 .fotter-container {
@@ -40,7 +39,7 @@
 
 .mylogo h1 {
     line-height: 1.2rem;
-    font-family: 'Porlane';
+    font-family: 'porlanefont';
     font-size: 3.75rem;
 }
 
@@ -64,7 +63,7 @@
 
 .nextprojectheading h1 {
     font-size: 10rem;
-    font-family: 'Porlane';
+    font-family: 'porlanefont';
     text-align: center;
     line-height: 8rem;
     display: flex;
@@ -268,7 +267,7 @@
 
     .mylogo h1 {
         line-height: 1.2rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         font-size: 3.2rem;
     }
 
@@ -283,7 +282,7 @@
     /* middle side */
     .nextprojectheading h1 {
         font-size: 8rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         text-align: center;
         line-height: 6rem;
         display: flex;
@@ -350,7 +349,7 @@
 
     .mylogo h1 {
         line-height: 1.2rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         font-size: 3rem;
     }
 
@@ -365,7 +364,7 @@
     /* middle side */
     .nextprojectheading h1 {
         font-size: 7rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         text-align: center;
         line-height: 5.5rem;
         display: flex;
@@ -473,7 +472,7 @@
 
     .mylogo h1 {
         line-height: 1.2rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         font-size: 3rem;
     }
 
@@ -498,7 +497,7 @@
 
     .nextprojectheading h1 {
         font-size: 6rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         text-align: center;
         line-height: 5rem;
         display: flex;
@@ -609,7 +608,7 @@
 
     .mylogo h1 {
         line-height: 1.2rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         font-size: 3rem;
     }
 
@@ -634,7 +633,7 @@
 
     .nextprojectheading h1 {
         font-size: 5rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         text-align: center;
         line-height: 4rem;
         display: flex;
@@ -761,7 +760,7 @@
 
     .mylogo h1 {
         line-height: 1.2rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         font-size: 3rem;
     }
 
@@ -786,7 +785,7 @@
 
     .nextprojectheading h1 {
         font-size: 4rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         text-align: center;
         line-height: 3.2rem;
         display: flex;
@@ -971,7 +970,7 @@
 
     .nextprojectheading h1 {
         font-size: 3.4rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         text-align: center;
         line-height: 3rem;
         display: flex;
@@ -1100,7 +1099,7 @@
 
     .mylogo h1 {
         line-height: 1.2rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         font-size: 2rem;
     }
 
@@ -1124,7 +1123,7 @@
 
     .nextprojectheading h1 {
         font-size: 3rem;
-        font-family: 'Porlane';
+        font-family: 'porlanefont';
         text-align: center;
         line-height: 2.6rem;
         display: flex;

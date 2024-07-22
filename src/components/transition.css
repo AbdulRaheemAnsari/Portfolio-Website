@@ -1,8 +1,7 @@
 @font-face {
-    font-family: 'Porlane';
-    src: url(portfoliowebsite\public\fonts\662f6dd95cf82eada21ddc17_EDNimpkish-Regular.woff2);
-    
-}
+    font-family: 'porlanefont';
+    src: url('/fonts/porlane.woff') format('woff');
+  }
 
 .transition {
     position: fixed;
@@ -23,8 +22,63 @@
 
 .transition h1{
     font-size: 18rem;
-    font-family: 'Porlane';
+    font-family: 'porlanefont';
     color: #FFFFFF;
     line-height: 12rem;
 }
 
+@media (max-width: 500px) {
+
+    .transition {
+        padding: 3rem;
+    }
+
+    .transition h1{
+        font-size: 16rem;
+        font-family: 'porlanefont';
+        color: #FFFFFF;
+        line-height: 10rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .transition {
+        padding: 2rem;
+    }
+
+    .transition h1{
+        font-size: 14rem;
+        font-family: 'porlanefont';
+        color: #FFFFFF;
+        line-height: 10rem;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .transition {
+        padding: 2rem;
+    }
+
+    .transition h1{
+        font-size: 12rem;
+        font-family: 'porlanefont';
+        color: #FFFFFF;
+        line-height: 10rem;
+    }
+}
+
+@media (max-width: 250px) {
+
+    .transition {
+        padding: 2rem;
+    }
+
+    .transition h1{
+        font-size: 10rem;
+        font-family: 'porlanefont';
+        color: #FFFFFF;
+        line-height: 10rem;
+    }
+}

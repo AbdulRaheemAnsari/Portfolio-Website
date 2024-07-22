@@ -1,13 +1,7 @@
 @font-face {
-    font-family: 'Porlane';
-    src: url(portfoliowebsite\public\fonts\662f6dd95cf82eada21ddc17_EDNimpkish-Regular.woff2);
-    
+    font-family: 'porlanefont';
+    src: url('/fonts/porlane.woff') format('woff');
 }
-/* @font-face {
-    font-family: 'telli';
-    src: url(portfoliowebsite\public\fonts\Telegraf.ttf.ttf);
-    
-} */
 
 .cardContainer {
     height: 100vh;
@@ -68,7 +62,7 @@ img {
 
 h2 {
     margin: 0px;
-    font-family: 'porlane';
+    font-family: 'porlanefont';
     text-transform: uppercase;
     font-size: 5rem;
     color: #292929;
@@ -255,7 +249,7 @@ h2 {
 
     h2 {
         margin: 0px;
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         text-transform: uppercase;
         font-size: 4.6rem;
         color: #292929;
@@ -297,7 +291,7 @@ h2 {
 
     h2 {
         margin: 0px;
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         text-transform: uppercase;
         font-size: 3.8rem;
         color: #292929;
@@ -346,7 +340,7 @@ h2 {
 
     h2 {
         margin: 0px;
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         text-transform: uppercase;
         font-size: 3.6rem;
         color: #292929;

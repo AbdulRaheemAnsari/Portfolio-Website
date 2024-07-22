@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Porlane';
-    src: url(portfoliowebsite\public\fonts\662f6dd95cf82eada21ddc17_EDNimpkish-Regular.woff2);
+    font-family: 'porlanefont';
+    src: url('/fonts/porlane.woff') format('woff');
 }
 
 .aboutcart{
@@ -15,7 +15,7 @@
 }
 
 .headingabout{
-    font-family: 'porlane';
+    font-family: 'porlanefont';
     font-size: 4.5rem;
     overflow: hidden;
 }
@@ -30,7 +30,7 @@
 @media (max-width: 900px) {
 
     .headingabout{
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         font-size: 4rem;
         overflow: hidden;
     }
@@ -39,7 +39,7 @@
 @media (max-width: 450px) {
 
     .headingabout{
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         font-size: 3.5rem;
         overflow: hidden;
     }
@@ -48,7 +48,7 @@
 @media (max-width: 300px) {
 
     .headingabout{
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         font-size: 3rem;
         overflow: hidden;
     }
@@ -57,7 +57,7 @@
 @media (max-width: 255px) {
 
     .headingabout{
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         font-size: 2.6rem;
         overflow: hidden;
     }
@@ -66,7 +66,7 @@
 @media (max-width: 230px) {
 
     .headingabout{
-        font-family: 'porlane';
+        font-family: 'porlanefont';
         font-size: 2.2rem;
         overflow: hidden;
     }
