@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
 
 
-          <div className="footersociallinks">
+          {/* <div className="footersociallinks">
             <div className="buttonslink">
               <Link to="https://www.linkedin.com/in/abdulraheemansari/" target="_blank" rel="noopener noreferrer">
                 <button><a>LinkedIn</a></button>
@@ -81,7 +81,7 @@ const Navbar = () => {
             <div className="emailbutton">
               <a href="mailto:ansariabdulraheem957@gmail.com"><h1><a>ansariabdulraheem957@gmail.com</a></h1></a>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

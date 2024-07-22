@@ -14,7 +14,7 @@
   justify-content: space-between;
   position: absolute;
   z-index: 40;
-  /* background-color: #e0bd94; */
+  background-color: #14281F;
 }
 
 .navbar .logo h1 {
@@ -45,7 +45,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10rem;
-  background-color: #FFFFFF;
+  background-color: #E6F3ED;
   color: #292929;
   transition: 0.3s ease;
   cursor: pointer;
@@ -108,7 +108,7 @@
 .menu_container {
   width: 100vw;
   height: 100vh;
-  background-color: #292929;
+  background-color: #14281F;
   position: fixed;
   left: 0%;
   right: 0%;
@@ -139,7 +139,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 10rem;
-  background-color: #343434;
+  background-color: #21352C;
   padding: 2rem 2rem;
 
 }
@@ -475,7 +475,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 10rem;
-    background-color: #FFFFFF;
     color: #292929;
     transition: 0.3s ease;
     cursor: pointer;
@@ -601,7 +600,9 @@
 
 @media (max-width: 280px) {
 
+  
   .navbar {
+    height: 5rem;
     padding: 1.4rem 1rem;
   }
 
@@ -639,8 +640,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 10rem;
-    background-color: #FFFFFF;
-    color: #292929;
     transition: 0.3s ease;
     cursor: pointer;
   }

@@ -9,7 +9,7 @@
     height: auto;
     padding-top: 8rem;
     overflow: hidden;
-    /* background-color: antiquewhite; */
+    background-color: #14281F;
 }
 
 .name {
@@ -25,7 +25,7 @@
     font-size: 27rem;
     font-family: 'porlanefont';
     line-height: 23rem;
-    color: #FFFFFF;
+    color: #E6F3ED;
     /* animation-name: move;
     animation-duration: 80s;
     animation-timing-function: linear;

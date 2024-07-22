@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 1.2rem;
+    background-color: #14281F;
 }
 
 .leftsidesection {
@@ -130,8 +131,14 @@
     object-fit: cover;
     object-position: top;
     filter: grayscale();
+    /* filter: blur(4px); */
     /* zoom: unset; */
     scale: 1.1;
+    transition: all 1s ease;
+}
+
+.rightsidesection img:hover {
+    scale: 1.2;
 }
 
 

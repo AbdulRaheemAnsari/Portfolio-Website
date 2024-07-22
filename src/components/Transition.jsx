@@ -15,8 +15,8 @@ const Transition = () => {
         .to(".transition", {
             duration: 1.6,
             height: "0%",
-            top: "100%",
-            delay: 0.2,
+            bottom: "120%",
+            delay: 0.7,
             ease: "power4.inOut",
         });
 
@@ -24,9 +24,9 @@ const Transition = () => {
         gsap.fromTo(countRef.current, 
             { textContent: 1 }, 
             { 
-                duration: 3,
+                duration: 4,
                 textContent: 100,
-                ease: "power4.in",
+                ease: "power4.inOut",
                 snap: { textContent: 1 },
                 onUpdate: function() {
                     countRef.current.textContent = `${Math.round(this.targets()[0].textContent)}%`;

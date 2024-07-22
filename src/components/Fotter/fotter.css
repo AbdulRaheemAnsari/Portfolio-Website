@@ -8,7 +8,7 @@
     height: 100vh;
     position: relative;
     padding: 1rem 2rem;
-    background-color: #292929;
+    background-color: #14281F;
     color: #292929;
     transition: padding 0.3s ease;
 }
@@ -443,7 +443,6 @@
         height: 100vh;
         position: relative;
         padding: 1rem 1rem;
-        background-color: #292929;
         color: #292929;
     }
 }
@@ -546,6 +545,13 @@
         align-items: center;
         gap: 1.4rem;
         padding: 1.2rem;
+    }
+
+    .backtotop{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
     .bottom-side {
@@ -702,6 +708,13 @@
         font-family: 'PP Mori';
     }
 
+    .backtotop{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     .sociallinks {
         display: flex;
         flex-wrap: wrap;
@@ -734,8 +747,7 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        padding: 1.8rem 1rem;
-        background-color: #292929;
+        padding: 1rem 1rem;
         color: #292929;
     }
 
@@ -784,10 +796,10 @@
     }
 
     .nextprojectheading h1 {
-        font-size: 4rem;
+        font-size: 3.4rem;
         font-family: 'porlanefont';
         text-align: center;
-        line-height: 3.2rem;
+        line-height: 3rem;
         display: flex;
         color: #292929;
     }
@@ -845,6 +857,13 @@
         padding: 1.4rem 0rem;
     }
 
+    .backtotop{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     .bottom-side {
         padding-bottom: 2rem;
     }
@@ -888,8 +907,7 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        padding: 1.8rem 1rem;
-        background-color: #292929;
+        padding: 1rem 1rem;
         color: #292929;
     }
 
@@ -943,6 +961,13 @@
         font-family: 'PP Mori';
         text-align: center;
     }
+
+    .backtotop{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media (max-width: 300px) {
@@ -951,8 +976,7 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        padding: 1.8rem 1rem;
-        background-color: #292929;
+        padding: 1rem 1rem;
         color: #292929;
     }
 
@@ -1034,6 +1058,13 @@
         padding-bottom: 2rem;
     }
 
+    .backtotop{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     .allrights h1 {
         line-height: 1rem;
         font-size: 0.8rem;
@@ -1073,8 +1104,7 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        padding: 1.8rem 1rem;
-        background-color: #292929;
+        padding: 1rem 1rem;
         color: #292929;
     }
 
@@ -1087,7 +1117,7 @@
         gap: 0rem;
         justify-content: space-between;
         align-items: center;
-        padding: 3.2rem 0rem;
+        padding: 3.6rem 0rem;
     }
 
     .designby h1 {
@@ -1098,9 +1128,9 @@
     }
 
     .mylogo h1 {
-        line-height: 1.2rem;
+        line-height: 1rem;
         font-family: 'porlanefont';
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .freelencework h1 {
@@ -1122,10 +1152,10 @@
     }
 
     .nextprojectheading h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
         font-family: 'porlanefont';
         text-align: center;
-        line-height: 2.6rem;
+        line-height: 2.4rem;
         display: flex;
         color: #292929;
     }
@@ -1181,8 +1211,16 @@
         justify-content: space-between;
         align-items: center;
         gap: 0rem;
-        padding: 0.4rem 0rem;
+        padding: 0rem 0rem;
     }
+
+    .backtotop{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
 
     .bottom-side {
         padding-bottom: 2rem;
