@@ -30,7 +30,7 @@
 
 .leftsections {
     width: 50%;
-    background-color: #FFFFFF;
+    background-color: #E5E5E0;
     padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -210,7 +210,6 @@ h2 {
     .leftsections {
         width: 100%;
         height: 50%;
-        background-color: #FFFFFF;
         padding: 2rem 1.4rem;
         display: flex;
         flex-direction: column;

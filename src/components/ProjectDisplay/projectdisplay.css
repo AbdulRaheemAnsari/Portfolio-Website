@@ -1,7 +1,7 @@
 .projectDisplay {
     width: 100%;
     height: auto;
-    background-color: #14281F;
+    background-color: #131311;
 }
 
 
@@ -19,7 +19,7 @@
 .topimgimgcontainer {
     width: 50%;
     height: 52rem;
-    background-color: #343434;
+    background-color: #131311;
     border-radius: 1rem;
     margin-top: 6rem;
     overflow: hidden;
@@ -34,7 +34,7 @@
 .img3container {
     width: 50%;
     height: 52rem;
-    background-color: #21352C;
+    background-color: #272725;
     border-radius: 1rem;
     margin-top: 6rem;
     overflow: hidden;
@@ -66,7 +66,7 @@
     width: 49.5%;
     height: 100%;
     /* background-color: #343434; */
-    color: #FFFFFF;
+    color: #E5E5E0;
 }
 
 .projectaboutwrraper .title {
@@ -86,7 +86,7 @@
 }
 
 .tech-button button {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #E5E5E0;
     border-radius: 50px;
     padding: 0rem 0.6rem;
     font-size: 0.8rem;
@@ -108,7 +108,7 @@
     font-size: 2rem;
     line-height: 2.2rem;
     letter-spacing: -0.1rem;
-    color: #FFFFFF;
+    color: #E5E5E0;
     text-align: left;
 }
 
@@ -243,7 +243,7 @@
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #21352C;
+    background-color: #131311;
     padding: 6rem;
     display: flex;
     justify-content: center;
@@ -264,7 +264,7 @@
 .video {
     width: 100%;
     height: 100%;
-    background-color: #21352C;
+    background-color: #131311;
     /* border-radius: 1rem; */
     display: flex;
     justify-content: center;
@@ -294,7 +294,7 @@
 .macbook2 {
     width: 100%;
     height: 100%;
-    background-color: #21352C;
+    background-color: #131311;
     /* border-radius: 1rem; */
     display: flex;
     justify-content: center;
@@ -453,7 +453,6 @@
     .img3container {
         width: 100%;
         height: 35rem;
-        background-color: #21352C;
         margin-top: 0rem;
         overflow: hidden;
         padding: 17rem;

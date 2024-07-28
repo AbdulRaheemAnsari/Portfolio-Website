@@ -6,13 +6,13 @@
     align-items: center;
     justify-content: center;
     gap: 1.2rem;
-    background-color: #14281F;
+    background-color: #131311;
 }
 
 .leftsidesection {
     width: 50%;
     height: 95%;
-    background-color: #FFFFFF;
+    background-color: #E5E5E0;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
     font-family: 'PP Mori';
     letter-spacing: -0.04rem;
     font-size: 1rem;    
-    background-color: #FFFFFF;
+    background-color: #E5E5E0;
     display: flex;
     align-items: center;
     position: relative;

@@ -8,6 +8,8 @@ import mobile1 from '../assets/images/mobile1.jpg';
 import mobile2 from '../assets/images/mobile2.jpg';
 import img1 from '../assets/images/img1.png';
 import img3 from '../assets/images/img3.png';
+import formimg from '../assets/images/formimg.webp';
+import hero from '../assets/images/hero.webp';
 
 export const projects = [
     {
@@ -38,6 +40,24 @@ export const projects = [
     },
     {
         id: 2,
+        title: "Ubimov",
+        description: "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
+        src: "https://ubimov.vercel.app/_next/image?url=%2Fimage%2Fformimg.webp&w=750&q=75",
+        url: "personalwebsite",
+        link: "https://ubimov.vercel.app/",
+        tech1: "Next.js",
+        tech2: "CSS",
+        tech3: "Tailwind CSS",
+        year: "2024",
+        location: "Pakistan",
+        // mac: mac,
+        // video: video,
+        topimg: formimg,
+        mobile2: hero,
+        // color: "#B62429"
+    },
+    {
+        id: 3,
         title: "Forbes Home",
         description: "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).",
         src: "https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/image2-1.jpg",
@@ -62,7 +82,7 @@ export const projects = [
         // color: "#977F6D"
     },
     {
-        id: 3,
+        id: 4,
         title: "doctor appointment",
         description: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
         src: "https://www.verywellhealth.com/thmb/XHhQWkEg9aMaEEbXjQLm1jFBGz0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/VWH-GettyImages-1406496671-d559150d3c294b8282f546c5bbf21157.jpg",
@@ -80,24 +100,7 @@ export const projects = [
         year: "2024",
         location: "Pakistan",
     },
-    {
-        id: 4,
-        title: "personal website",
-        description: "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
-        src: "https://assets-global.website-files.com/635eb8f1708045802d51b0d4/636420d2921e160568295f51_S01.2_38%20Newcastle%20Street_EXT_Vignette_Final-p-800.jpg",
-        url: "personalwebsite",
-        link: "https://novel-corner.vercel.app/",
-        tech1: "React.js",
-        tech2: "CSS",
-        tech3: "Tailwind CSS",
-        year: "2024",
-        location: "Pakistan",
-        // mac: mac,
-        // video: video,
-        // macair: macair,
-        img4: img4,
-        // color: "#B62429"
-    },
+    
     {
         id: 5,
         title: "Mark Rammers",

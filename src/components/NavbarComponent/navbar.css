@@ -9,17 +9,17 @@
   display: flex;
   align-items: center;
   padding: 1.4rem 1.8rem;
-  color: #FFFFFF;
+  color: #E5E5E0;
   font-family: 'PP Mori';
   justify-content: space-between;
   position: absolute;
   z-index: 40;
-  background-color: #14281F;
+  background-color: #131311;
 }
 
 .navbar .logo h1 {
   font-size: 1.4rem;
-  color: #FFFFFF;
+  color: #E5E5E0;
   font-family: 'PP Mori';
   cursor: pointer;
   letter-spacing: -0.05rem;
@@ -45,7 +45,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10rem;
-  background-color: #E6F3ED;
+  background-color: #E5E5E0;
   color: #292929;
   transition: 0.3s ease;
   cursor: pointer;
@@ -108,7 +108,7 @@
 .menu_container {
   width: 100vw;
   height: 100vh;
-  background-color: #14281F;
+  background-color: #131311;
   position: fixed;
   left: 0%;
   right: 0%;
@@ -139,7 +139,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 10rem;
-  background-color: #21352C;
+  background-color: #272725;
   padding: 2rem 2rem;
 
 }
@@ -160,7 +160,7 @@
   content: "";
   width: 100%;
   height: 1px;
-  background-color: #FFFFFF;
+  background-color: #E5E5E0;
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -176,7 +176,7 @@
 
 .menuName p {
   font-size: 1rem;
-  color: #FFFFFF;
+  color: #E5E5E0;
   font-family: 'PP Mori';
 
 }
@@ -184,7 +184,7 @@
 .menuName h1 {
   font-size: 7rem;
   line-height: 6rem;
-  color: #FFFFFF;
+  color: #E5E5E0;
   text-transform: uppercase;
   font-family: 'porlanefont';
   transition: transform 0.4s ease;
@@ -222,7 +222,7 @@
   font-family: 'PP Mori';
   position: relative;
   overflow: hidden;
-  color: #FFFFFF;
+  color: #E5E5E0;
 }
 
 .footersociallinks button:hover {
@@ -248,8 +248,8 @@
   content: "";
   width: 0%;
   height: 100%;
-  background-color: #FFFFFF;
-  color: #FFFFFF;
+  background-color: #E5E5E0;
+  color: #E5E5E0;
   position: absolute;
   left: 50%;
   right: 50%;
@@ -268,7 +268,7 @@
 }
 
 .emailbutton h1 {
-  color: #FFFFFF;
+  color: #E5E5E0;
   font-family: 'PP Mori';
   overflow: hidden;
   border: 1px solid #818181;
@@ -301,8 +301,8 @@
   content: "";
   width: 0%;
   height: 100%;
-  background-color: #FFFFFF;
-  color: #FFFFFF;
+  background-color: #E5E5E0;
+  color: #E5E5E0;
   position: absolute;
   left: 50%;
   right: 50%;
