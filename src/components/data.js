@@ -10,6 +10,11 @@ import img1 from '../assets/images/img1.png';
 import img3 from '../assets/images/img3.png';
 import formimg from '../assets/images/formimg.webp';
 import hero from '../assets/images/hero.webp';
+import heroimg from '../assets/images/homeimg.png';
+import ubimovvideo from '../assets/images/ubimovvideo.mp4';
+import benefitimg from '../assets/images/benefitimg.png';
+import ourwork from '../assets/images/ourworkimg.png';
+import ubimovformimg from '../assets/images/formimg.png';
 
 export const projects = [
     {
@@ -54,6 +59,11 @@ export const projects = [
         // video: video,
         topimg: formimg,
         mobile2: hero,
+        img1: heroimg, 
+        video: ubimovvideo,
+        macair: benefitimg,
+        macm2: ourwork,
+        formimg: ubimovformimg,
         // color: "#B62429"
     },
     {

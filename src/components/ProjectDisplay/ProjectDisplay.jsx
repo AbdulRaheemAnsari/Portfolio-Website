@@ -21,7 +21,6 @@ const ProjectDisplay = ({ projects }) => {
       <PageTransition key={projectId} />
       <div className='projectDisplay'>
 
-
         <div className="first-container">
           {project.mobile2 && <div className="img3container">
             <img src={project.mobile2} alt={project.title} />
@@ -31,8 +30,6 @@ const ProjectDisplay = ({ projects }) => {
             <img src={project.topimg} alt={project.title} />
           </div>}
         </div>
-
-        {/* <Heading heading={project.title} link={project.link}  key={projectId} /> */}
 
         <div className="projectabout-container">
           <div className="projectaboutwrraper">
@@ -69,32 +66,35 @@ const ProjectDisplay = ({ projects }) => {
           </div>
         </div>
 
-
-        <div className="second-container">
-          {project.img1 && <div className="Imac">
+        {project.img1 && <div className="second-container">
+          <div className="Imac">
             <img src={project.img1} alt={project.title} />
-          </div>}
-        </div>
+          </div>
+        </div>}
 
-        <div className="third-container">
-          {project.video && <div className="video">
+        {project.video && <div className="third-container">
+          <div className="video">
             <video src={project.video} autoPlay loop muted></video>
-          </div>}
-        </div>
+          </div>
+        </div>}
 
-
-        <div className="five-container">
-          {project.macair && <div className="macbook">
+        {project.macair && <div className="five-container">
+          <div className="macbook">
             <img src={project.macair} alt={project.title} />
-          </div>}
-        </div>
+          </div>
+        </div>}
 
-
-        <div className="six-container">
-          {project.macm2 && <div className="macbook2">
+        {project.macm2 && <div className="six-container">
+          <div className="macbook2">
             <img src={project.macm2} alt={project.title} />
-          </div>}
-        </div>
+          </div>
+        </div>}
+
+        {project.formimg && <div className="six-container">
+          <div className="macbook2">
+            <img src={project.formimg} alt={project.title} />
+          </div>
+        </div>}
 
 
         <Projects projects={projects.filter(proj => proj.url !== projectId)} /> {/* Filter out current project */}
