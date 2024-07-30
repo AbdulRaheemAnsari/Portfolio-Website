@@ -9,7 +9,7 @@ import mobile2 from '../assets/images/mobile2.jpg';
 import img1 from '../assets/images/img1.png';
 import img3 from '../assets/images/img3.png';
 import formimg from '../assets/images/formimg.webp';
-import hero from '../assets/images/hero.webp';
+import hero from '../assets/images/ubimovmobile.jpg';
 import heroimg from '../assets/images/homeimg.png';
 import ubimovvideo from '../assets/images/ubimovvideo.mp4';
 import benefitimg from '../assets/images/benefitimg.png';
